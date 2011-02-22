@@ -24,8 +24,8 @@
 		<canvas width="668" height="587" id="drawing"></canvas>
 		
 		<ul class="users">
-			<script id="friend" type="text/html">
-	         	<li><span class="friend">{{ name }}</span></li>
+			<script id="user" type="text/html">
+	         	<li><span class="user">{{ id }}</span></li>
 	        </script>
 		</ul>
 		<script src="javascripts/lib/zepto.js"></script>
@@ -35,7 +35,12 @@
 		<script src="javascripts/lib/json2.js"></script>
 		<script src="javascripts/lib/backbone.js"></script>
 		<script src="javascripts/lib/socket.io.js"></script>
-		<script src="javascripts/models/friend.js"></script>
+		<script src="javascripts/models/drawing.js"></script>
+		<script src="javascripts/models/point.js"></script>
+		<script src="javascripts/models/polygon.js"></script>
+		<script src="javascripts/models/scan.js"></script>
+		<script src="javascripts/models/user.js"></script>
+		<script src="javascripts/views/AppView.js"></script>
 		<script src="javascripts/init.js"></script>
 	</body>
 </html>

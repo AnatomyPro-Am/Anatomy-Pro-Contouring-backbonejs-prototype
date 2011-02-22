@@ -1,0 +1,1 @@
+var appview = new AppView;

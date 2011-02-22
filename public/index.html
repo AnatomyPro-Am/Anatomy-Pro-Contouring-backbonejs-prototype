@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>backbone</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			img {
+				position: absolute;
+				z-index: 1;
+			}
+			input {
+
+			}
+			canvas {
+				position: absolute;
+				z-index: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="images/image.png" alt="image 1 " />
+		<canvas width="668" height="587" id="drawing"></canvas>
+		
+		<ul class="users">
+			<script id="friend" type="text/html">
+	         	<li><span class="friend">{{ name }}</span></li>
+	        </script>
+		</ul>
+		<script src="javascripts/lib/zepto.js"></script>
+		<script src="javascripts/lib/underscore.js"></script>
+		<script src="javascripts/lib/mustache.js"></script>
+		<script src="javascripts/lib/ICanHaz.js"></script>
+		<script src="javascripts/lib/json2.js"></script>
+		<script src="javascripts/lib/backbone.js"></script>
+		<script src="javascripts/lib/socket.io.js"></script>
+		<script src="javascripts/models/friend.js"></script>
+		<script src="javascripts/init.js"></script>
+	</body>
+</html>
